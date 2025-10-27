@@ -1,2 +1,72 @@
-hello 
-this example 1 text file
+# Git Commands Cheat Sheet
+
+## Basic Commands
+- `git init`  
+  Initialize a new Git repository in the current directory.
+
+- `git clone <repository-url>`  
+  Clone a remote repository to your local machine.
+
+- `git status`  
+  Show the status of changes as untracked, modified, or staged.
+
+- `git add <file>`  
+  Stage a file for commit.
+
+- `git add .`  
+  Stage all changes in the current directory.
+
+- `git commit -m "commit message"`  
+  Commit staged changes with a message.
+
+- `git log`  
+  Show commit history.
+
+- `git diff`  
+  Show changes between commits, commit and working tree, etc.
+
+## Branching
+- `git branch`  
+  List all local branches.
+
+- `git branch <branch-name>`  
+  Create a new branch.
+
+- `git checkout <branch-name>`  
+  Switch to another branch.
+
+- `git checkout -b <branch-name>`  
+  Create and switch to a new branch.
+
+- `git merge <branch-name>`  
+  Merge another branch into the current branch.
+
+## Remote Repositories
+- `git remote -v`  
+  Show remote connections.
+
+- `git fetch`  
+  Fetch changes from remote but do not merge.
+
+- `git pull`  
+  Fetch and merge changes from remote.
+
+- `git push`  
+  Push local commits to remote repository.
+
+## Undo/Reset
+- `git reset <file>`  
+  Unstage a file.
+
+- `git checkout -- <file>`  
+  Discard changes in a file.
+
+- `git revert <commit>`  
+  Create a new commit that undoes changes from a previous commit.
+
+- `git reset --hard <commit>`  
+  Reset your branch to a specific commit, discarding all changes.
+
+---
+
+If you need more specific commands or examples, let me know!
